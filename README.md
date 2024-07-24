@@ -119,6 +119,8 @@
    Email Address []:
    ```
 
+   NOTE: leave the challenge password blank. It will be viewable in clear text in the CSR, which you will send to the head of security.
+
 2. Inspect the CSR with the following command:
 
    ```powershell
@@ -245,6 +247,8 @@
    Email Address []:
    ```
 
+   NOTE: leave the challenge password blank. It will be viewable in clear text in the CSR, which you will send to the head of security.
+
 2. Inspect the CSR with the following command:
 
    ```bash
@@ -353,6 +357,8 @@
    Common Name (e.g. server FQDN or YOUR name) []:Delegation - 1
    Email Address []:
    ```
+
+   NOTE: leave the challenge password blank. It will be viewable in clear text in the CSR, which you will send to the head of security.
 
 2. Inspect the CSR with the following command:
 
