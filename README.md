@@ -34,7 +34,7 @@
       ----
       C:\Users\Jamie
       ```
-      The working directory is the directory the terminal is currently
+      The working directory is the directory PowerShell is currently
       "inside". You can change to a different working directory using the `Set-Location`
       command. For our purposes, we will remain in the default `~` (home) directory.
 3. Create the directory. The command `New-Item` is used to make a directory. In
@@ -47,7 +47,7 @@
    directory, so on my machine this would create the directory
    `C:\Users\Jamie\private-keys`.
 
-4. Create your private key. From the terminal, run the command:
+4. Create your private key. From PowerShell, run the command:
 
    ```powershell
    openssl genpkey -aes256 -algorithm ed25519 -out private-keys\your-key-name-here.private
@@ -85,7 +85,7 @@
    ```
 
    it will prompt you to enter your password. Do so to decrypt the file. It
-   will print the public key (not sensitive information) to the terminal
+   will print the public key (not sensitive information) to the PowerShell
    output.
 
 4. Create offline backups of the private key - e.g. in USB sticks or external
