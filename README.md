@@ -109,5 +109,5 @@ TODO
 2. Inspect the CSR with the following command:
 
    ```bash
-   openssl req -in ~/private-keys/your-key-name-here.private -text -noout
+   openssl req -in ~/private-keys/your-key-name-here.csr -text -noout
    ```
