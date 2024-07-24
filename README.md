@@ -101,5 +101,13 @@ TODO
    for the private key (with the extension `.private` changed to `.csr`). That
    way you will know which private key is associated with which CSR.
 
+   Enter your password to decrypt the key.
+
    You will be prompted to enter values for certain fields. The Head of
    security can inform you what you should put in these fields.
+
+2. Inspect the CSR with the following command:
+
+   ```bash
+   openssl req -in ~/private-keys/your-key-name-here.private -text -noout
+   ```
