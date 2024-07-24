@@ -61,3 +61,30 @@ TODO
    - `-out ~/private-keys/<key-name>.private` says to save the file in the
        `~/private-keys` directory you just created with the file name `<key-name>.private`
 
+   You will be prompted for a password. It if vial that you use a strong
+   password to encrypt your private key, as the file will be living on your
+   machine and is therefore vulnerable to cyber attacks. Encryption with a
+   strong password will ensure that even if the file is stolen, the information
+   will not be compromised.
+
+   Some suggestions for a password:
+
+   1. If you use a password manager, generate a new password using it.
+   2. Pick a random phrase of at least 4 words, but six is better. You can
+      either make it up (for example, to quote XKCD "car horse staple battery"
+      - obviously don't use that exact phrase), or you can use a random number
+      generator and pick words from a dictionary using the number as an
+      index.
+   3. Consider writing it down somewhere physically secure if you go with
+      option 2 so you have a backup in case you forget it.
+
+
+3. Verify the creation of the key with the password:
+
+   Run the command
+
+   ```bash
+   openssl pkey -in ~/private-keys/your-key-name-here.private -pubout
+   ```
+
+   it will prompt you to enter your password. Do so to decrypt the file.
