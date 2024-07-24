@@ -94,7 +94,7 @@ TODO
 1. From the terminal, run the command
 
    ```bash
-   openssl req -new -key ~/private-keys/your-key-name-here.private -out ~/your-key-name-here.csr
+   openssl req -new -key ~/private-keys/your-key-name-here.private -out ~/private-keys/your-key-name-here.csr
    ```
 
    For convenience, it is a good idea to use the same base name for the CSR as
