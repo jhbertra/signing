@@ -43,5 +43,21 @@ TODO
 2. Create the private key with the command:
 
    ```bash
-   openssl genpkey -aes256 -algorithm ed25519 -out test.private
+   openssl genpkey -aes256 -algorithm ed25519 -out ~/private-keys/key-name.private
    ```
+
+   With `key-name` replaced with some useful name, for example `cc-delegator`
+   or `cc-voter`. Keep in mind that you may need to manage multiple keys in the
+   future, so pick a naming scheme that will be easy to keep track of. For
+   example, you could include the date in the name as well, e.g.
+   `cc-delegator-2024-07-24` so you know which is the latest one.
+
+   breaking this down:
+   - `openssl genpkey` is a command used to generate private keys
+   - `-aes256` says we want to encrypt the private key with the AES 256 cipher
+      (widely considered to be one of the most secure symmetric ciphers)
+   - `-algorithm ed25519` says to generate a key using the Ed25519 elliptic
+      curve - this is the native algorithm for Cardano.
+   - `-out ~/private-keys/<key-name>.private` says to save the file in the
+       `~/private-keys` directory you just created with the file name `<key-name>.private`
+
