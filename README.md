@@ -27,7 +27,7 @@
       user's home directory. If you run the command `Get-Location` it will print out the
       absolute path of the working directory you are currently in. For example,
       here is what I see:
-      ```bash
+      ```powershell
       Get-Location
 
       Path
@@ -39,7 +39,7 @@
       command. For our purposes, we will remain in the default `~` (home) directory.
 3. Create the directory. The command `New-Item` is used to make a directory. In
    PowerShell, run the command:
-   ```bash
+   ```powershell
    New-Item -Name "private-keys" -ItemType "directory"
    ```
    This command says to make a new directory called `private-keys` relative to
@@ -49,7 +49,7 @@
 
 4. Create your private key. From the terminal, run the command:
 
-   ```bash
+   ```powershell
    openssl genpkey -aes256 -algorithm ed25519 -out private-keys\your-key-name-here.private
    ```
 
@@ -80,7 +80,7 @@
 
    Run the command
 
-   ```bash
+   ```powershell
    openssl pkey -in private-keys\your-key-name-here.private -pubout
    ```
 
@@ -96,7 +96,7 @@
 
 1. From PowerShell, run the command
 
-   ```bash
+   ```powershell
    openssl req -new -key private-keys\your-key-name-here.private -out private-keys\your-key-name-here.csr
    ```
 
@@ -121,7 +121,7 @@
 
 2. Inspect the CSR with the following command:
 
-   ```bash
+   ```powershell
    openssl req -in private-keys\your-key-name-here.csr -text -noout
    ```
 
