@@ -88,3 +88,18 @@ TODO
    ```
 
    it will prompt you to enter your password. Do so to decrypt the file.
+
+## Step 3: Create a Certificate Signing Request
+
+1. From the terminal, run the command
+
+   ```bash
+   openssl req -new -key ~/private-keys/your-key-name-here.private -out ~/your-key-name-here.csr
+   ```
+
+   For convenience, it is a good idea to use the same base name for the CSR as
+   for the private key (with the extension `.private` changed to `.csr`). That
+   way you will know which private key is associated with which CSR.
+
+   You will be prompted to enter values for certain fields. The Head of
+   security can inform you what you should put in these fields.
