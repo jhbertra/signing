@@ -109,6 +109,8 @@
    You will be prompted to enter values for certain fields. The Head of
    security can inform you what you should put in these fields. For example:
 
+   See [openssl.cnf] for the values you should use. 
+
    ```
    Country Name (2 letter code) [AU]:US
    State or Province Name (full name) [Some-State]:Colorado
@@ -121,7 +123,7 @@
 
    NOTE: leave the challenge password blank. It will be viewable in clear text in the CSR, which you will send to the head of security.
 
-2. Inspect the CSR with the following command:
+3. Inspect the CSR with the following command:
 
    ```powershell
    openssl req -in private-keys\your-key-name-here.csr -text -noout
@@ -130,7 +132,7 @@
    It will print the information you just entered along with the public key and
    signature used to verify that the request was signed by your private key.
 
-3. Send your CSR to your head of security
+4. Send your CSR to your head of security
 
 
 ## MacOS
@@ -236,6 +238,8 @@
 
    You will be prompted to enter values for certain fields. The Head of
    security can inform you what you should put in these fields. For example:
+   
+   See [openssl.cnf] for the values you should use.
 
    ```
    Country Name (2 letter code) [AU]:US
@@ -249,7 +253,7 @@
 
    NOTE: leave the challenge password blank. It will be viewable in clear text in the CSR, which you will send to the head of security.
 
-2. Inspect the CSR with the following command:
+3. Inspect the CSR with the following command:
 
    ```bash
    openssl req -in ~/private-keys/your-key-name-here.csr -text -noout
@@ -258,7 +262,7 @@
    It will print the information you just entered along with the public key and
    signature used to verify that the request was signed by your private key.
 
-3. Send your CSR to your head of security
+4. Send your CSR to your head of security
 
    NOTE: By default, the Finder app on MacOS tries to hide a lot of information
    about the file system's structure, so you may find it hard to locate the CSR
@@ -347,6 +351,8 @@
 
    You will be prompted to enter values for certain fields. The Head of
    security can inform you what you should put in these fields. For example:
+   
+   See [openssl.cnf] for the values you should use.
 
    ```
    Country Name (2 letter code) [AU]:US
@@ -360,7 +366,7 @@
 
    NOTE: leave the challenge password blank. It will be viewable in clear text in the CSR, which you will send to the head of security.
 
-2. Inspect the CSR with the following command:
+3. Inspect the CSR with the following command:
 
    ```bash
    openssl req -in ~/private-keys/your-key-name-here.csr -text -noout
@@ -369,4 +375,4 @@
    It will print the information you just entered along with the public key and
    signature used to verify that the request was signed by your private key.
 
-3. Send your CSR file to your head of security
+4. Send your CSR file to your head of security
