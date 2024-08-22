@@ -117,7 +117,7 @@
    Locality Name (eg, city) []:Longmont
    Organization Name (eg, company) [Internet Widgits Pty Ltd]:Input Output Global
    Organizational Unit Name (eg, section) []:ICC - Mainnet
-   Common Name (e.g. server FQDN or YOUR name) []:Delegation - 1
+   Common Name (e.g. server FQDN or YOUR name) []:Your name here
    Email Address []:
    ```
 
@@ -247,7 +247,7 @@
    Locality Name (eg, city) []:Longmont
    Organization Name (eg, company) [Internet Widgits Pty Ltd]:Input Output Global
    Organizational Unit Name (eg, section) []:ICC - Mainnet
-   Common Name (e.g. server FQDN or YOUR name) []:Delegation - 1
+   Common Name (e.g. server FQDN or YOUR name) []:Your name here
    Email Address []:
    ```
 
@@ -360,7 +360,7 @@
    Locality Name (eg, city) []:Longmont
    Organization Name (eg, company) [Internet Widgits Pty Ltd]:Input Output Global
    Organizational Unit Name (eg, section) []:ICC - Mainnet
-   Common Name (e.g. server FQDN or YOUR name) []:Delegation - 1
+   Common Name (e.g. server FQDN or YOUR name) []:Your name here
    Email Address []:
    ```
 
