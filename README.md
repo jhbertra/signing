@@ -109,7 +109,7 @@
    You will be prompted to enter values for certain fields. The Head of
    security can inform you what you should put in these fields. For example:
 
-   See [openssl.cnf] for the values you should use. 
+   See [openssl.cnf](openssl.cnf) for the values you should use. 
 
    ```
    Country Name (2 letter code) [AU]:US
@@ -120,6 +120,8 @@
    Common Name (e.g. server FQDN or YOUR name) []:Your name here
    Email Address []:
    ```
+
+   NOTE: where it says "Your name here", enter your real name.
 
    NOTE: leave the challenge password blank. It will be viewable in clear text in the CSR, which you will send to the head of security.
 
@@ -238,8 +240,8 @@
 
    You will be prompted to enter values for certain fields. The Head of
    security can inform you what you should put in these fields. For example:
-   
-   See [openssl.cnf] for the values you should use.
+
+   See [openssl.cnf](openssl.cnf) for the values you should use. 
 
    ```
    Country Name (2 letter code) [AU]:US
@@ -250,6 +252,8 @@
    Common Name (e.g. server FQDN or YOUR name) []:Your name here
    Email Address []:
    ```
+
+   NOTE: where it says "Your name here", enter your real name.
 
    NOTE: leave the challenge password blank. It will be viewable in clear text in the CSR, which you will send to the head of security.
 
@@ -351,8 +355,8 @@
 
    You will be prompted to enter values for certain fields. The Head of
    security can inform you what you should put in these fields. For example:
-   
-   See [openssl.cnf] for the values you should use.
+
+   See [openssl.cnf](openssl.cnf) for the values you should use. 
 
    ```
    Country Name (2 letter code) [AU]:US
@@ -363,6 +367,8 @@
    Common Name (e.g. server FQDN or YOUR name) []:Your name here
    Email Address []:
    ```
+
+   NOTE: where it says "Your name here", enter your real name.
 
    NOTE: leave the challenge password blank. It will be viewable in clear text in the CSR, which you will send to the head of security.
 
